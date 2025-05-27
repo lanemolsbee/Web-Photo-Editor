@@ -1,0 +1,5 @@
+var express = require('express')
+var app = express()
+var path = require('path')
+var {MongoClient} = require('mongodb')
+const client = new MongoClient('mongodb://localhost:27017')
